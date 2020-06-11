@@ -1,0 +1,36 @@
+body {
+  background-color: #a7fcdc;
+}
+
+/* ids are referenced with hashtags (#)
+classes are referenced with periods (.)
+(i remember this by remembering that in school you have classes divided into periods (1st period, 2nd period))
+elements are referenced just by their name (body, div, h1, p) */
+
+#canvas {
+  background-color: white;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  /* display: grid;
+  grid-template-columns: repeat(20 / 1fr);
+  grid-template-rows: repeat(20 / 1fr); */
+}
+
+#pallet {
+  border: 1px solid black;
+  margin: auto;
+  height: 50px;
+  width: 450px;
+  display: flex;
+  flex-flow: row;
+}
+
+#selected {
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
